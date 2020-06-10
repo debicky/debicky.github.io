@@ -1,0 +1,1 @@
+$('.navbar-toggler').on('click')

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC|Roboto:300,400&display=swap');
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a:hover {
+  text-decoration: none;;
+}
+
+header{
+  height: 200px;
+  width: 100%;
+  display: flex;
+}

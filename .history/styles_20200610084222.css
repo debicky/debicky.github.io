@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC|Roboto:300,400&display=swap');
+
+@font-face {
+  font-family: "AmostelySignature";
+  src: url("/fonts/AmostelySignature.ttf");
+  }
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a:hover {
+  text-decoration: none;;
+}
+
+header{
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signature{
+  color: black;
+  text-align: center;
+  user-select: none;
+}
+
+.signature-heading{
+  font-family: 'AmostelySignature', cursive;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.signature-subhead{
+  font-family: 'Playfair Display SC', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.navbar{
+  background-color: #38;
+}

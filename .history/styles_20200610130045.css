@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC|Roboto:300,400&display=swap');
+
+@font-face {
+  font-family: "AmostelySignature";
+  src: url("/fonts/AmostelySignature.ttf");
+  }
+
+body, html {
+  font-family: "Roboto", sans-serif;
+}
+
+a:hover {
+  text-decoration: none;;
+}
+
+/* Heading & nav  */
+
+header{
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signature{
+  color: black;
+  text-align: center;
+  user-select: none;
+}
+
+
+.signature-heading{
+  font-family: 'AmostelySignature', cursive;
+  font-size: 80px;
+  margin-bottom: 30px;
+}
+
+.signature-subhead{
+  font-family: 'Playfair Display SC', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.navbar{
+  background-color: #384147;
+}
+
+.navbar-toggler i{
+  color: #fff;
+  font-size: 25px;
+}
+
+.navbar-toggler .fa-times{
+  display: none;
+}
+
+.navbar-toggler.menu-open  .fa-bars{
+  display: none;
+}
+
+.navbar-toggler.menu-open  .fa-times{
+  display: block;
+}
+
+.navbar-nav{
+  padding: 20px;
+} 
+
+.nav-link{
+  color: #fff;
+  text-transform: uppercase;
+  transition: opacity .5s;
+  font-size: 12px;
+}
+
+.nav-link:hover{
+  color: maroon;
+}
+
+/* About */
+
+.about-content{
+  display: flex;
+  flex-direction: column;
+  background-color: seashell;
+}
+
+.about-description{
+  width: 100%;
+  background-color: #fff;
+  padding: 40px;
+  outline: 5px solid rgba(56, 65, 71, 0.5);
+  outline-offset: -5px;
+  order: 1;
+  margin-top: 5px;
+}
+
+.about-image{
+  order: 2;
+}
+
+.about-image img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.about-image a::after{
+  font-family: 'Font Awesome 5 Free';
+  content: "\f35d";
+  font-weight: 600;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: maroon;
+  font-size: 25px;
+  z-index: 101;
+  width: 70px;
+  height: 70px;
+  border: 3px solid #fff;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.about-image a:hover::after{
+  opacity: .7;
+}
+
+
+/* Footer */
+
+
+footer {
+  background-color: #151515;
+}
+
+.signature-footer-heading{
+  font-family: 'AmostelySignature', cursive;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.signature-footer-subhead{
+  font-family: 'Playfair Display SC', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+footer h5, footer h3{
+  color: #fff;
+  font-family: 'Playfair Display SC', sans-serif;
+}
+
+a.text-muted:hover{
+  color: maroon !important;
+}
+
+
+/* Responsive */
+
+@media screen and (min-width: 768px) {
+  .navbar{
+    background-color: transparent;
+  }
+  .navbar-nav{
+    padding: 0;
+  }
+  .nav-link{
+    color: #384147;
+  }
+
+  nav:hover .nav-link:not(:hover){
+    opacity: .5;
+  }
+
+  .about-content{
+    position: relative;
+    display: block;
+  }
+
+  .about-description{
+    position: absolute;
+    top: 80%;
+    transform: translateY(-50%);
+    width: 60%;
+    outline-offset: -10px;
+  }
+
+  .about-image img{
+    width: 70%;
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .about-description{
+    top: 50%;
+    width: 40%;
+    outline: 10px solid rgba(56, 65, 71, 0.5);
+    offset: -25px;
+  }
+
+  .about-image{
+    width: 80%;
+  }
+}
+
+.project-1{
+  margin-bottom: 200px;
+}
+
+.project-1:nth-child(odd){
+  background-color: royalblue;
+  display: flex;
+  flex-direction: row-reverse;
+} 
