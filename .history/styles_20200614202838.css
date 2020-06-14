@@ -133,23 +133,23 @@ height: 18px;
   margin-top: 5px;
 }
 
-.project-down{
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.up{
+  position: absolute;
   width: 5rem;
   height: 5rem;
   background-color: #fff;
+  right: 3rem;
   border-radius: 100%;
-  margin: 5rem;
+  display: flex;
   animation: pulse 2.5s infinite;
   cursor: pointer;
   z-index: 1;
 }
 
-.project-down i{
+.up i{
   color: #151515;
   font-size: 2rem;
+  margin: auto;
 }
 
 
@@ -330,7 +330,7 @@ a.text-muted:hover{
   /* about resposnive */
 
   .about{
-    margin-top: 15%;
+    margin-top: 5rem;
   }
 
   .about-content{

@@ -141,7 +141,6 @@ height: 18px;
   height: 5rem;
   background-color: #fff;
   border-radius: 100%;
-  margin: 5rem;
   animation: pulse 2.5s infinite;
   cursor: pointer;
   z-index: 1;
@@ -150,6 +149,7 @@ height: 18px;
 .project-down i{
   color: #151515;
   font-size: 2rem;
+  margin: auto;
 }
 
 
@@ -330,7 +330,7 @@ a.text-muted:hover{
   /* about resposnive */
 
   .about{
-    margin-top: 15%;
+    margin-top: 5rem;
   }
 
   .about-content{

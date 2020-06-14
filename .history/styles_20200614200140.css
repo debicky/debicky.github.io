@@ -28,10 +28,6 @@ a:hover {
   color: #563d7c;
 }
 
-p span{
-  white-space: pre;
-}
-
 /* Heading */
 
 header{
@@ -52,7 +48,7 @@ header{
 
 .signature-heading{
   font-family: 'AmostelySignature', cursive;
-  font-size: 7rem;
+  font-size: 8rem;
   margin-bottom: 30px;
 }
 
@@ -105,6 +101,8 @@ header{
 
 .about {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -131,25 +129,6 @@ height: 18px;
   outline-offset: -5px;
   order: 1;
   margin-top: 5px;
-}
-
-.project-down{
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 5rem;
-  height: 5rem;
-  background-color: #fff;
-  border-radius: 100%;
-  margin: 5rem;
-  animation: pulse 2.5s infinite;
-  cursor: pointer;
-  z-index: 1;
-}
-
-.project-down i{
-  color: #151515;
-  font-size: 2rem;
 }
 
 
@@ -328,24 +307,7 @@ a.text-muted:hover{
   }
 
   /* about resposnive */
-
-  .about{
-    margin-top: 15%;
-  }
-
-  .about-content{
-    position: relative;
-    display: block;
-  }
-
-  .minor-about-description{
-    position: absolute;
-    transform: translateY(-35%);
-    left: 53%;
-    width: 45%;
-    padding: 20px;  
-    background-color: #fff;
-  }
+  
 
 
 
