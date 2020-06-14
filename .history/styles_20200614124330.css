@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC|Roboto:300,400&display=swap');
+
+@font-face {
+  font-family: "AmostelySignature";
+  src: url("/fonts/AmostelySignature.ttf");
+  }
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(45deg, transparent 0%, transparent 55%,rgba(238, 202, 125, 0.336) 55%, rgba(83, 67, 67, 0.219) 76%,transparent 76%, transparent 100%),linear-gradient(135deg, transparent 0%, transparent 14%,rgba(255,1,1, 0.04) 14%, rgba(255,1,1, 0.04) 41%,transparent 41%, transparent 100%),linear-gradient(45deg, transparent 0%, transparent 2%,rgba(255,1,1, 0.04) 2%, rgba(255,1,1, 0.04) 18%,transparent 18%, transparent 100%),linear-gradient(135deg, transparent 0%, transparent 61%,rgba(255,1,1, 0.04) 61%, rgba(255,1,1, 0.04) 71%,transparent 71%, transparent 100%),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+a:hover {
+  text-decoration: none;;
+}
+
+/* Heading */
+
+header{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.signature{
+  color: black;
+  text-align: center;
+  user-select: none;
+}
+
+.signature-heading{
+  font-family: 'AmostelySignature', cursive;
+  font-size: 10rem;
+  margin-bottom: 30px;
+}
+
+.signature-subheading{
+  font-family: 'Playfair Display SC', sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+/* Navbar */
+
+.navbar{
+  background-color: #384147;
+}
+
+.navbar-toggler i{
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.navbar-toggler .fa-times{
+  display: none;
+}
+
+.navbar-toggler.menu-open  .fa-bars{
+  display: none;
+}
+
+.navbar-toggler.menu-open  .fa-times{
+  display: block;
+}
+
+.navbar-nav{
+  padding: 20px;
+} 
+
+.nav-link{
+  color: #fff;
+  text-transform: uppercase;
+  transition: opacity .5s;
+  font-size: 1rem;
+}
+
+.nav-link:hover{
+  color: maroon;
+}
+
+/* About */
+
+.about{
+  height: 100vh;
+}
+
+.about h1 {
+  position: relative;
+  z-index: 1;
+}
+
+.about h1::before {
+  content: ' ';
+  position: absolute;
+  width: 3em;
+  background: #00BFFF;
+  height: 1em;
+  bottom: 0;
+  z-index: -1;
+  margin-left: -.3em;
+}
+
+.about img{
+height: 18px;
+}
+
+.about-description{
+  width: 100%;
+  background-color: #fff;
+  padding: 40px;
+  outline: 5px solid rgba(56, 65, 71, 0.5);
+  outline-offset: -5px;
+  order: 1;
+  margin-top: 5px;
+}
+
+.about-image{
+  order: 2;
+}
+
+.about-image img{
+  outline: 5px solid rgba(56, 65, 71, 0.5);
+  outline-offset: -5px;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.about-image a::after{
+  font-family: 'Font Awesome 5 Free';
+  content: "\f35d";
+  font-weight: 600;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: maroon;
+  font-size: 25px;
+  z-index: 101;
+  width: 70px;
+  height: 70px;
+  border: 3px solid maroon;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.about-image a:hover::after{
+  opacity: .7;
+}
+
+
+/* Projects */
+
+section h1{
+  font-family: 'Playfair Display SC', sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+
+/* Contact */
+
+.contact{
+  height: 80vh;
+}
+
+
+.jumbotron{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Footer */
+
+
+footer {
+  background-color: #151515;
+  color: #fff;
+}
+
+.signature-footer-heading{
+  font-family: 'AmostelySignature', cursive;
+  font-size: 50px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.signature-footer-subhead{
+  font-family: 'Playfair Display SC', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+footer h5{
+  font-family: 'Playfair Display SC', sans-serif;
+
+}
+
+
+a.text-muted:hover{
+  color: maroon !important;
+}
+
+
+/* Responsive */
+
+@media screen and (min-width: 768px) {
+  .navbar{
+    background-color: transparent;
+  }
+  .navbar-nav{
+    padding: 0;
+  }
+  .nav-link{
+    color: #384147;
+  }
+
+  nav:hover .nav-link:not(:hover){
+    opacity: .5;
+  }
+
+  .about-content{
+    position: relative;
+    display: block;
+  }
+
+  .about-description{
+    position: absolute;
+    top: 80%;
+    transform: translateY(-50%);
+    width: 60%;
+    outline-offset: -10px;
+  }
+
+  .about-image img{
+    width: 70%;
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .about-description{
+    top: 50%;
+    width: 40%;
+  }
+
+  .about-image{
+    width: 80%;
+  }
+
+
+}
+
+.project-1{
+  margin-bottom: 200px;
+}
+

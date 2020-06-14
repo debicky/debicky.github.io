@@ -1,1 +1,19 @@
-<?xml version="1.0" ?><svg viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:#525967;}.cls-2{fill:#454b57;}.cls-3{fill:none;}.cls-4{fill:#0acf83;}.cls-5{fill:#a259ff;}.cls-6{fill:#f24e1e;}.cls-7{fill:#ff7262;}.cls-8{fill:#1abcfe;}</style></defs><title/><g data-name="Layer 2" id="Layer_2"><g data-name="Layer 1 copy" id="Layer_1_copy"><g data-name="figma round" id="figma_round"><g id="explore"><circle class="cls-1" cx="12.5" cy="12.5" r="7.85"/><path class="cls-2" d="M12.5,5.25A7.25,7.25,0,1,1,5.25,12.5,7.26,7.26,0,0,1,12.5,5.25m0-.6a7.85,7.85,0,1,0,7.85,7.85A7.85,7.85,0,0,0,12.5,4.65Z"/></g><rect class="cls-3" height="25" width="25"/><g data-name="ads manager" id="ads_manager"><path class="cls-4" d="M11,17.11a1.54,1.54,0,0,0,1.54-1.54V14H11a1.54,1.54,0,0,0,0,3.08Z" data-name="path0 fill" id="path0_fill"/><path class="cls-5" d="M9.42,12.5A1.54,1.54,0,0,1,11,11H12.5V14H11A1.54,1.54,0,0,1,9.42,12.5Z" data-name="path1 fill" id="path1_fill"/><path class="cls-6" d="M9.42,9.42A1.54,1.54,0,0,1,11,7.89H12.5V11H11A1.54,1.54,0,0,1,9.42,9.42Z" data-name="path1 fill" id="path1_fill-2"/><path class="cls-7" d="M12.5,7.89H14A1.54,1.54,0,0,1,14,11H12.5Z" data-name="path2 fill" id="path2_fill"/><path class="cls-8" d="M15.58,12.5A1.54,1.54,0,1,1,14,11,1.54,1.54,0,0,1,15.58,12.5Z" data-name="path3 fill" id="path3_fill"/></g></g></g></g></svg>
+<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+
+ <title/>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="18" width="18" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <circle fill="#525967" id="svg_1" r="7.85" cy="7.937622" cx="8.000121" class="cls-1"/>
+  <path fill="#454b57" id="svg_2" d="m8.000121,0.687622a7.25,7.25 0 1 1 -7.25,7.25a7.26,7.26 0 0 1 7.25,-7.25m0,-0.6a7.85,7.85 0 1 0 7.85,7.85a7.85,7.85 0 0 0 -7.85,-7.85z" class="cls-2"/>
+  <rect stroke="null" x="-0.124997" y="-0.062498" fill="none" id="svg_3" width="16.06274" height="16.187737" class="cls-3"/>
+  <path fill="#0acf83" id="path0_fill" d="m6.500121,12.547622a1.54,1.54 0 0 0 1.54,-1.54l0,-1.57l-1.54,0a1.54,1.54 0 0 0 0,3.08l0,0.03z" class="cls-4"/>
+  <path fill="#a259ff" id="path1_fill" d="m4.920121,7.937622a1.54,1.54 0 0 1 1.58,-1.5l1.5,0l0,3l-1.5,0a1.54,1.54 0 0 1 -1.58,-1.5z" class="cls-5"/>
+  <path fill="#f24e1e" id="path1_fill-2" d="m4.920121,4.857622a1.54,1.54 0 0 1 1.58,-1.53l1.5,0l0,3.11l-1.5,0a1.54,1.54 0 0 1 -1.58,-1.58z" class="cls-6"/>
+  <path fill="#ff7262" id="path2_fill" d="m8.000121,3.327622l1.5,0a1.54,1.54 0 0 1 0,3.11l-1.5,0l0,-3.11z" class="cls-7"/>
+  <path fill="#1abcfe" id="path3_fill" d="m11.080121,7.937622a1.54,1.54 0 1 1 -1.58,-1.5a1.54,1.54 0 0 1 1.58,1.5z" class="cls-8"/>
+ </g>
+</svg>
