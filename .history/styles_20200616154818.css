@@ -116,7 +116,7 @@ height: 18px;
   outline-offset: -5px;
   order: 1;
   margin-top: 5px;
-  border-radius: 5px;
+  border-radius: ;
   -webkit-box-shadow: 0px 2px 5px 3px rgba(255,255,255,0.2);
   -moz-box-shadow: 0px 2px 5px 3px rgba(255,255,255,0.2);
   box-shadow: 0px 2px 5px 3px rgba(255,255,255,0.2);
@@ -172,7 +172,7 @@ section h1{
   font-size: 4rem;
   position: relative;
   z-index: 1;
-  color: #ffffff;
+  color: #07020D;
   font-weight: 800;
   z-index: 1;
   line-height: .3em;
@@ -222,7 +222,6 @@ section h1::before {
   width: 100%;
   height: auto;
   display: block;
-  border-radius: 3px;
 }
 
 
