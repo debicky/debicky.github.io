@@ -130,9 +130,6 @@ height: 18px;
   outline-offset: -5px;
   order: 1;
   margin-top: 5px;
-  -webkit-box-shadow: -2px 2px 5px 0px rgba(255,255,255,0.2);
--moz-box-shadow: -2px 2px 5px 0px rgba(255,255,255,0.2);
-box-shadow: -2px 2px 5px 0px rgba(255,255,255,0.2);
   
   
 }
@@ -342,7 +339,9 @@ a.text-muted:hover{
     background-color: #cacaca;
     outline-offset: -10px;
     border-radius: 5px;
-    
+    -webkit-box-shadow: -2px 2px 5px 0px rgba(255,255,255,0.2);
+-moz-box-shadow: -2px 2px 5px 0px rgba(255,255,255,0.2);
+box-shadow: -2px 2px 5px 0px rgba(255,255,255,0.2);
 
   }
 

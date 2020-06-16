@@ -108,7 +108,7 @@ header{
 height: 18px;
 }
 
-.main-about-description{
+.main-about-description, .minor-about-description{
   width: 100%;
   background-color: #828A95;
   padding: 30px;
@@ -116,24 +116,7 @@ height: 18px;
   outline-offset: -5px;
   order: 1;
   margin-top: 5px;
-  -webkit-box-shadow: 0px 2px 5px 3px rgba(255,255,255,0.2);
-  -moz-box-shadow: 0px 2px 5px 3px rgba(255,255,255,0.2);
-  box-shadow: 0px 2px 5px 3px rgba(255,255,255,0.2);
-  
-}
 
-.minor-about-description{
-  width: 100%;
-  background-color: #828A95;
-  padding: 30px;
-  outline: 5px solid rgba(56, 65, 71, 0.5);
-  outline-offset: -5px;
-  order: 1;
-  margin-top: 5px;
-  -webkit-box-shadow: -2px 2px 5px 0px rgba(255,255,255,0.2);
--moz-box-shadow: -2px 2px 5px 0px rgba(255,255,255,0.2);
-box-shadow: -2px 2px 5px 0px rgba(255,255,255,0.2);
-  
   
 }
 
@@ -171,7 +154,7 @@ section h1{
   font-size: 4rem;
   position: relative;
   z-index: 1;
-  color: #07020D;
+  color: #fff;
   font-weight: 800;
   z-index: 1;
   line-height: .3em;
@@ -339,10 +322,9 @@ a.text-muted:hover{
     left: 50%;
     width: 45%;
     padding: 20px;  
-    background-color: #cacaca;
+    background-color: #D3D5D4;
     outline-offset: -10px;
     border-radius: 5px;
-    
 
   }
 
