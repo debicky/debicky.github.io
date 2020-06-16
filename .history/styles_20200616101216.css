@@ -290,7 +290,7 @@ a.text-muted:hover{
     padding: 0;
   }
   .nav-link{
-    color: #e5e5e5;
+    color: #d6c2ce;
   }
 
   nav:hover .nav-link:not(:hover){

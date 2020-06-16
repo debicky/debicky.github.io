@@ -33,8 +33,7 @@ p span{
 /* Heading */
 
 header{
-  height: 100vh;
-  padding-top: 20vh;
+
 }
 
 .signature{
@@ -63,7 +62,7 @@ header{
 }
 
 .navbar-toggler i{
-  color: black;
+  color: #fff;
   font-size: 1.2rem;
 }
 
@@ -290,7 +289,7 @@ a.text-muted:hover{
     padding: 0;
   }
   .nav-link{
-    color: #e5e5e5;
+    color: #384147;
   }
 
   nav:hover .nav-link:not(:hover){

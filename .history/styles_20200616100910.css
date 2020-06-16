@@ -61,6 +61,9 @@ header{
 .navbar{
   background-color: #fff;
 }
+.navbar-nav {
+  background-color: #fff;
+}
 
 .navbar-toggler i{
   color: black;
@@ -290,7 +293,7 @@ a.text-muted:hover{
     padding: 0;
   }
   .nav-link{
-    color: #e5e5e5;
+    color: #384147;
   }
 
   nav:hover .nav-link:not(:hover){
