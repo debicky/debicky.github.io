@@ -253,7 +253,6 @@ a.text-muted:hover{
   height: 5rem;
   background-color: #fff;
   border-radius: 100%;
-  display: flex;
   animation: pulse 2.5s infinite;
   cursor: pointer;
   z-index: 1;

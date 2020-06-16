@@ -249,9 +249,11 @@ a.text-muted:hover{
 }
 
 .up{
+  position: absolute;
   width: 5rem;
   height: 5rem;
   background-color: #fff;
+  right: 3rem;
   border-radius: 100%;
   display: flex;
   animation: pulse 2.5s infinite;
@@ -380,6 +382,9 @@ a.text-muted:hover{
     width: 80%;
   }
   
+
+  
+
 
 }
 
