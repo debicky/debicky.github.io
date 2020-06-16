@@ -313,8 +313,8 @@ a.text-muted:hover{
   .minor-about-description{
     position: absolute;
     transform: translateY(-35%);
-    left: 50%;
-    width: 45%;
+    left: 45%;
+    width: 50%;
     padding: 20px;  
     background-color: #D3D5D4;
     outline-offset: -10px;
