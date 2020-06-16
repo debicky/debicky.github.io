@@ -348,7 +348,6 @@ a.text-muted:hover{
     transform: translateY(-50%);
     width: 50%;
     outline-offset: -10px;
-    border-radius: 5px;
   }
   
   .project-image img{

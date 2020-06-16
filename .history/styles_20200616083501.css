@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Playfair+Display+SC&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC|Roboto:300,400&display=swap');
 
 @font-face {
   font-family: "AmostelySignature";
@@ -12,13 +12,14 @@
   box-sizing: border-box;
 }
 
-body,html {
+body {
   background-image: linear-gradient(346deg, rgba(55, 55, 55,0.04) 0%, rgba(55, 55, 55,0.04) 22%,rgba(140, 140, 140,0.04) 22%, rgba(140, 140, 140,0.04) 69%,rgba(225, 225, 225,0.04) 69%, rgba(225, 225, 225,0.04) 100%),linear-gradient(31deg, rgba(55, 55, 55,0.04) 0%, rgba(55, 55, 55,0.04) 42%,rgba(140, 140, 140,0.04) 42%, rgba(140, 140, 140,0.04) 85%,rgba(225, 225, 225,0.04) 85%, rgba(225, 225, 225,0.04) 100%),linear-gradient(55deg, rgba(55, 55, 55,0.04) 0%, rgba(55, 55, 55,0.04) 13%,rgba(140, 140, 140,0.04) 13%, rgba(140, 140, 140,0.04) 72%,rgba(225, 225, 225,0.04) 72%, rgba(225, 225, 225,0.04) 100%),linear-gradient(90deg, rgba(0,0,0, 0.98),rgba(0,0,0, 0.98));
-  font-family: 'Raleway', sans-serif;
-
 }
 
+html {
+  font-family: "Roboto", sans-serif;
 
+}
 
 a:hover {
   text-decoration: none;
@@ -115,7 +116,7 @@ height: 18px;
 
 .main-about-description, .minor-about-description {
   width: 100%;
-  background-color: rgba(255, 255, 255, .8);
+  background-color: rgba(255, 255, 255, .7);
   padding: 30px;
   outline: 5px solid rgba(56, 65, 71, 0.5);
   outline-offset: -5px;
@@ -320,9 +321,6 @@ a.text-muted:hover{
     width: 45%;
     padding: 20px;  
     background-color: #fff;
-    outline-offset: -10px;
-    border-radius: 5px;
-
   }
 
   .project-content{
@@ -348,7 +346,6 @@ a.text-muted:hover{
     transform: translateY(-50%);
     width: 50%;
     outline-offset: -10px;
-    border-radius: 5px;
   }
   
   .project-image img{
