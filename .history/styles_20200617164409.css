@@ -150,7 +150,6 @@ height: 18px;
   background-color: #fff;
   border-radius: 100%;
   margin-top: 5rem;
-  margin-left: 1rem;
   animation: pulse 2.5s infinite;
   cursor: pointer;
   z-index: 1;
@@ -162,6 +161,10 @@ height: 18px;
   font-size: 2rem;
 }
 
+.btn-down{
+  position: relative;
+
+}
 
 
 
@@ -169,7 +172,7 @@ height: 18px;
 
 section h1{
   font-family: 'Playfair Display', sans-serif;
-  font-size: 3.5rem;
+  font-size: 4rem;
   position: relative;
   z-index: 1;
   color: #ffffff;

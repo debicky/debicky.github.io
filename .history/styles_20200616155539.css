@@ -149,8 +149,7 @@ height: 18px;
   height: 5rem;
   background-color: #fff;
   border-radius: 100%;
-  margin-top: 5rem;
-  margin-left: 1rem;
+  margin: 5rem;
   animation: pulse 2.5s infinite;
   cursor: pointer;
   z-index: 1;
@@ -165,24 +164,26 @@ height: 18px;
 
 
 
+
 /* section headers */
 
 section h1{
   font-family: 'Playfair Display', sans-serif;
-  font-size: 3.5rem;
+  font-size: 4rem;
   position: relative;
   z-index: 1;
   color: #ffffff;
   font-weight: 800;
+  z-index: 1;
   line-height: .3em;
 }
 
 section h1::before {
   content: ' ';
   position: absolute;
-  width: 6rem;
+  width: 25%;
   background: #912F40 ;
-  height: .7em;
+  height: -1em;
   bottom: 0;
   z-index: -1;
   margin-left: -.3em;
