@@ -99,8 +99,6 @@ header{
 /* about */
 
 .about {
-  margin-top: 10vh;
-  margin-bottom: 40vh;
   height: 100vh;
   justify-content: center;
   align-items: center;
@@ -171,7 +169,7 @@ height: 18px;
 
 section h1{
   font-family: 'Playfair Display', sans-serif;
-  font-size: 3.2rem;
+  font-size: 3.5rem;
   position: relative;
   z-index: 1;
   color: #ffffff;
@@ -193,7 +191,7 @@ section h1::before {
 /* Projects */
 
 .projects{
-  margin-bottom: 40vh;
+  margin-top: 30vh;
 }
 
 .project-content{
@@ -328,15 +326,6 @@ a.text-muted:hover{
   /* about resposnive */
 
 
-  .about {
-    padding-top: 10vh;
-    margin-bottom: 0;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-  }
-
-
   .about-content{
     position: relative;
     display: block;
@@ -362,6 +351,7 @@ a.text-muted:hover{
 
 
   /* project responsive */
+
 
 
   .project-content{

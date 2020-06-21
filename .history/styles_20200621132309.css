@@ -100,7 +100,7 @@ header{
 
 .about {
   margin-top: 10vh;
-  margin-bottom: 40vh;
+  margin-bottom: 10vh;
   height: 100vh;
   justify-content: center;
   align-items: center;
@@ -327,10 +327,8 @@ a.text-muted:hover{
 
   /* about resposnive */
 
-
   .about {
     padding-top: 10vh;
-    margin-bottom: 0;
     height: 100vh;
     justify-content: center;
     align-items: center;
